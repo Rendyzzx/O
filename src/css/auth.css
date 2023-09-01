@@ -1,0 +1,27 @@
+/*@media (prefers-color-scheme: dark) {*/
+*, html, body {
+  background-color: #0f0f0f;
+  /*#1f2937;*/
+  color: #fff;
+}
+/*}*/
+
+input {
+  color: white;
+  font-style: italic;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: normal;
+}
+
+.dark-btn {
+  background-color: #374151;
+  border-color: #374151;
+}
+
+.dark-btn:hover {
+  background-color: #1f2937;
+  border-color: #1f2937;
+}
